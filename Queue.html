@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html>
+            <head>
+                <meta charset='utf-1'>
+    <title> Queue Words </title>
+            </head>
+<body>
+    <script type="text/javascript">
+
+class Q {
+	    constructor() {
+	        this.org = {}
+	            this.style = 1 
+	                this.stored = 1
+	}
+	
+	    enq(element) {
+	        this.org[this.stored] = element
+	            this.stored++
+	                console.log(this.org)
+	}
+	
+	    dq() {
+	        let removed = this.org[this.style]
+	            delete this.org[this.style]
+	                this.style++
+	                    return removed
+	                        console.log(this.org)
+}
+}
+
+const que = new Q()
+
+que.enq('Hello')
+que.enq('My New')
+que.enq('Friend')
+que.enq('Nice to meet you')
+que.enq('Lets Play')
+que.enq('Together')
+que.enq('I hope')
+que.enq('You wont')
+que.enq('Leave me')
+que.enq('Be happy')
+que.enq('With me')
+que.enq('Dont be scared')
+que.enq('I always here')
+que.enq('For you')
+que.enq('I promise')
+que.enq('I will make you')
+que.enq('Happy')
+
+	
+		
+</script></body></html>
